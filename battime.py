@@ -15,8 +15,12 @@ bat_time = bat_info[-1].split(' ')[1]
 
 if "discharging" in bat_status:
     print("{0} left".format(bat_time))
+elif "(no" in bat_time:
+    print("calculating time until full")
+elif "not" in bat_time:
+    print("! not charging")
 else:
-    print("{0} until charged".format(bat_time))
+    print("{0} until full".format(bat_time))
 
 
 # print json.dumps(items)
