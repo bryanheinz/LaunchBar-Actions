@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.bryanheinz.lb.uuidgen</string>
+	<key>CFBundleName</key>
+	<string>uuidgen</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Bryan Heinz</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBRequirements</key>
+		<string>/usr/bin/uuidgen</string>
+		<key>LBResult</key>
+		<string>UUID string.</string>
+		<key>LBSummary</key>
+		<string>This action uses uuidgen to generate a uuid and copies it to the clipboard.</string>
+		<key>LBTwitter</key>
+		<string>@cookie_lust</string>
+		<key>LBWebsiteURL</key>
+		<string>https://bryanheinz.com</string>
+	</dict>
+	<key>LBRequirements</key>
+	<string>/usr/bin/uuidgen</string>
+	<key>LBResult</key>
+	<string>UUID string.</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBResultType</key>
+			<string>string</string>
+			<key>LBScriptName</key>
+			<string>default.sh</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

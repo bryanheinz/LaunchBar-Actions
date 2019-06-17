@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.bryanheinz.lb.bt-restart</string>
+	<key>CFBundleName</key>
+	<string>bt_restart</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Bryan Heinz</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBRequirements</key>
+		<string>blueutil https://github.com/toy/blueutil and bt_restart https://github.com/bryanheinz/bin/blob/master/bt_restart</string>
+		<key>LBResult</key>
+		<string>Restarts Bluetooth</string>
+		<key>LBSummary</key>
+		<string>This action restarts your Bluetooth adapter.</string>
+		<key>LBTwitter</key>
+		<string>@cookie_lust</string>
+		<key>LBWebsiteURL</key>
+		<string>https://bryanheinz.com</string>
+	</dict>
+	<key>LBRequirements</key>
+	<string>blueutil https://github.com/toy/blueutil and bt_restart https://github.com/bryanheinz/bin/blob/master/bt_restart</string>
+	<key>LBResult</key>
+	<string>Restarts Bluetooth</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBScriptName</key>
+			<string>default.sh</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

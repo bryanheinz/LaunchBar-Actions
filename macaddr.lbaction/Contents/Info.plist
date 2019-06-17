@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.bryanheinz.lb.macaddr</string>
+	<key>CFBundleName</key>
+	<string>macaddr</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LBArgument</key>
+	<string>MAC Address</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBArgument</key>
+		<string>MAC Address</string>
+		<key>LBAuthor</key>
+		<string>Bryan Heinz</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBRequirements</key>
+		<string>Python</string>
+		<key>LBResult</key>
+		<string>MAC Address</string>
+		<key>LBSummary</key>
+		<string>This action takes a MAC address and either strips the colons, adds colons, or converts dashes to colons. It then adds the result to the clipboard and displays it in LaunchBar.</string>
+		<key>LBTwitter</key>
+		<string>@cookie_lust</string>
+		<key>LBWebsiteURL</key>
+		<string>https://bryanheinz.com</string>
+	</dict>
+	<key>LBRequirements</key>
+	<string>Python</string>
+	<key>LBResult</key>
+	<string>MAC Address</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>string</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.py</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
