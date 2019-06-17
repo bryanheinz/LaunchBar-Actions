@@ -2,8 +2,9 @@
 #
 # LaunchBar Action Script
 #
+
 import subprocess
-from sys import argv
+
 
 pmset_cmd = ['/usr/bin/pmset', '-g', 'batt']
 task = subprocess.Popen(pmset_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -23,6 +24,3 @@ elif "charged" in bat_status:
     print("battery is charged")
 else:
     print("{0} until full".format(bat_time))
-
-
-# print json.dumps(items)
