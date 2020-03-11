@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.bryanheinz.lb.kh</string>
+	<key>CFBundleName</key>
+	<string>kh</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LBArgument</key>
+	<string>All or part of an IP address (string)</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBArgument</key>
+		<string>All or part of an IP address (string)</string>
+		<key>LBAuthor</key>
+		<string>Bryan Heinz</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBRequirements</key>
+		<string>Python 3</string>
+		<key>LBResult</key>
+		<string>None</string>
+		<key>LBSummary</key>
+		<string>Takes part or a whole IP and removes its entry from the known_hosts file.</string>
+		<key>LBTwitter</key>
+		<string>@cookie_lust</string>
+		<key>LBWebsiteURL</key>
+		<string>https://bryanheinz.com</string>
+	</dict>
+	<key>LBRequirements</key>
+	<string>Python 3</string>
+	<key>LBResult</key>
+	<string>None</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>string</string>
+			<key>LBScriptName</key>
+			<string>default.py</string>
+		</dict>
+	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.14</string>
+</dict>
+</plist>

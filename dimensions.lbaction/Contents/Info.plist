@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.bryanheinz.lb.dimensions</string>
+	<key>CFBundleName</key>
+	<string>dimensions</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Bryan Heinz</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBResult</key>
+		<string>Window dimensions</string>
+		<key>LBSummary</key>
+		<string>Uses the screencapture CLI tool to take a screenshot of a window and returns the dimensions of the window copied to your clipboard.</string>
+		<key>LBTwitter</key>
+		<string>@cookie_lust</string>
+		<key>LBWebsiteURL</key>
+		<string>https://bryanheinz.com</string>
+	</dict>
+	<key>LBResult</key>
+	<string>Window dimensions</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>string</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.py</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

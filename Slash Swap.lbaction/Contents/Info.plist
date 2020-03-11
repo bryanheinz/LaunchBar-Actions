@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.bryanheinz.lb.slash-swap</string>
+	<key>CFBundleName</key>
+	<string>Slash Swap</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LBArgument</key>
+	<string>Path string</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBArgument</key>
+		<string>Path string</string>
+		<key>LBAuthor</key>
+		<string>Bryan Heinz</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBResult</key>
+		<string>A path string copied to your clipboard.</string>
+		<key>LBSummary</key>
+		<string>Swaps \ with / and vice versa. Copies the result to your clipboard.</string>
+		<key>LBTwitter</key>
+		<string>@cookie_lust</string>
+		<key>LBWebsiteURL</key>
+		<string>https://bryanheinz.com</string>
+	</dict>
+	<key>LBResult</key>
+	<string>A path string copied to your clipboard.</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>string</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.py</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
