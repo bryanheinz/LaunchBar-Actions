@@ -11,8 +11,6 @@ To install these LaunchBar (LB) actions please follow these steps:
 ### battime
 battime returns the time left for charging or discharging your Mac.
 
-- ☑️ returns result: string
-
 ### bt\_restart
 bt\_restart will restart your Macs Bluetooth adapter. It requires the following:
 
@@ -33,15 +31,8 @@ macaddr converts the following MAC address strings:
 
 Results will be copied to the clipboard.
 
-- ☑️ requires argument
-- ☑️ accepts string argument
-- ☑️ returns result: string
-
 ### man
-man requires a command and opens the manual page in Preview.app.
-
-- ☑️ requires argument
-- ☑️ accepts string argument
+Opens the manual page for the given command in Preview.app.
 
 ### Songwhip
 [Songwhip](https://songwhip.com) takes a music streaming service URL and creates a Songwhip page for it, and then copies that URL to the clipboard.
