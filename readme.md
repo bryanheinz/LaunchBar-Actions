@@ -43,5 +43,12 @@ man requires a command and opens the manual page in Preview.app.
 - ☑️ requires argument
 - ☑️ accepts string argument
 
+### Songwhip
+[Songwhip](https://songwhip.com) takes a music streaming service URL and creates a Songwhip page for it, and then copies that URL to the clipboard.
+
+Requires:
+- Python 3
+- Python Requests module
+
 ### uuidgen
 uuidgen generates a UUID and copies it to your clipboard.
