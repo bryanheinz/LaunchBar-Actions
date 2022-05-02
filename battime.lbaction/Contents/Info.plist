@@ -14,8 +14,6 @@
 		<string>Bryan Heinz</string>
 		<key>LBEmail</key>
 		<string></string>
-		<key>LBRequirements</key>
-		<string>/usr/bin/pmset and Python</string>
 		<key>LBResult</key>
 		<string>String</string>
 		<key>LBSummary</key>
@@ -25,8 +23,6 @@
 		<key>LBWebsiteURL</key>
 		<string>https://bryanheinz.com</string>
 	</dict>
-	<key>LBRequirements</key>
-	<string>/usr/bin/pmset and Python</string>
 	<key>LBResult</key>
 	<string>String</string>
 	<key>LBScripts</key>

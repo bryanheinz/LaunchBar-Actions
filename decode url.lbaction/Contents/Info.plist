@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.bryanheinz.lb.decode_url</string>
+	<string>com.bryanheinz.lb.decode-url</string>
 	<key>CFBundleName</key>
 	<string>decode url</string>
 	<key>LBDescription</key>
@@ -17,7 +17,7 @@
 		<key>LBTwitter</key>
 		<string>@cookie_lust</string>
 		<key>LBWebsiteURL</key>
-		<string>http://bryanheinz.com</string>
+		<string>https://bryanheinz.com</string>
 	</dict>
 	<key>LBScripts</key>
 	<dict>
@@ -36,7 +36,7 @@
 			<key>LBReturnsResult</key>
 			<true/>
 			<key>LBScriptName</key>
-			<string>default.sh</string>
+			<string>default.py</string>
 		</dict>
 	</dict>
 </dict>

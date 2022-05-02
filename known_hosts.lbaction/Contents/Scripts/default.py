@@ -1,21 +1,16 @@
-
 #!/usr/bin/env python3
+
 #
-# LaunchBar Action Script
+# LaunchBar Action Script - kh
 #
-import subprocess
-from os import path
+# This script finds and removes lines that match the input IP address/parts.
+#
+
 from sys import argv
+from pathlib import Path
 from getpass import getuser
 
-def logg(msg):
-    cmd = ['logger', '-s', "[kh] {0}".format(msg)]
-    subprocess.call(cmd)
-
-logg("running kh from lb")
-
 if len(argv) <= 1 or len(argv) > 2 or '--help' in argv or '-h' in argv:
-    logg("running help")
     print("Usage: kh [IP]")
     print("Include all or part of the IP address.")
     print("")
@@ -26,10 +21,9 @@ if len(argv) <= 1 or len(argv) > 2 or '--help' in argv or '-h' in argv:
 
 username = getuser()
 
-kh_file = '/Users/{0}/.ssh/known_hosts'.format(username)
+kh_file = Path(f'/Users/{username}/.ssh/known_hosts')
 
-if not path.isfile(kh_file):
-    logg("can't find known_hosts file")
+if kh_file.is_file() is False:
     print("Can't find known_hosts, exiting...")
     exit(1)
 

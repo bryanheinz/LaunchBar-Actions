@@ -18,17 +18,13 @@
 		<string>Bryan Heinz</string>
 		<key>LBEmail</key>
 		<string></string>
-		<key>LBResult</key>
-		<string>A path string copied to your clipboard.</string>
 		<key>LBSummary</key>
-		<string>Swaps \ with / and vice versa. Copies the result to your clipboard.</string>
+		<string>Swaps \ with / and vice versa, and then copies the result to your clipboard.</string>
 		<key>LBTwitter</key>
 		<string>@cookie_lust</string>
 		<key>LBWebsiteURL</key>
 		<string>https://bryanheinz.com</string>
 	</dict>
-	<key>LBResult</key>
-	<string>A path string copied to your clipboard.</string>
 	<key>LBScripts</key>
 	<dict>
 		<key>LBDefaultScript</key>

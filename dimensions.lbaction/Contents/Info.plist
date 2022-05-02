@@ -14,6 +14,8 @@
 		<string>Bryan Heinz</string>
 		<key>LBEmail</key>
 		<string></string>
+		<key>LBRequirements</key>
+		<string>Screen Recording permission.</string>
 		<key>LBResult</key>
 		<string>Window dimensions</string>
 		<key>LBSummary</key>
@@ -23,6 +25,8 @@
 		<key>LBWebsiteURL</key>
 		<string>https://bryanheinz.com</string>
 	</dict>
+	<key>LBRequirements</key>
+	<string>Screen Recording permission.</string>
 	<key>LBResult</key>
 	<string>Window dimensions</string>
 	<key>LBScripts</key>

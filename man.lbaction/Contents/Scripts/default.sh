@@ -1,6 +1,9 @@
 #!/bin/sh
+
 #
-# LaunchBar Action Script
+# LaunchBar Action Script - man
+#
+# This script opens the input CLI tool's man page in Preview.app
 #
 
 os_maj=$(printf $(/usr/bin/sw_vers -productVersion) | /usr/bin/awk '{split($0,a,"."); print a[1]}')

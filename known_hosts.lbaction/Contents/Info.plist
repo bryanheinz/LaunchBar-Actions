@@ -20,8 +20,6 @@
 		<string></string>
 		<key>LBRequirements</key>
 		<string>Python 3</string>
-		<key>LBResult</key>
-		<string>None</string>
 		<key>LBSummary</key>
 		<string>Takes part or a whole IP and removes its entry from the known_hosts file.</string>
 		<key>LBTwitter</key>
@@ -31,8 +29,6 @@
 	</dict>
 	<key>LBRequirements</key>
 	<string>Python 3</string>
-	<key>LBResult</key>
-	<string>None</string>
 	<key>LBScripts</key>
 	<dict>
 		<key>LBDefaultScript</key>

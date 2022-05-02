@@ -48,12 +48,10 @@
 			<key>LBRunInBackground</key>
 			<true/>
 			<key>LBScriptName</key>
-			<string>default</string>
+			<string>default.py</string>
 		</dict>
 	</dict>
 	<key>LBTextInputTitle</key>
 	<string>Music URL</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>2021 Bryan Heinz</string>
 </dict>
 </plist>

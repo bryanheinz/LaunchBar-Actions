@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.bryanheinz.ssh_config</string>
+	<string>com.bryanheinz.lb.ssh_config</string>
 	<key>CFBundleName</key>
 	<string>SSH Config</string>
 	<key>CFBundleVersion</key>

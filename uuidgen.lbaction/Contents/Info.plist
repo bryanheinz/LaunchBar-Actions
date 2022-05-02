@@ -14,10 +14,6 @@
 		<string>Bryan Heinz</string>
 		<key>LBEmail</key>
 		<string></string>
-		<key>LBRequirements</key>
-		<string>/usr/bin/uuidgen</string>
-		<key>LBResult</key>
-		<string>UUID string.</string>
 		<key>LBSummary</key>
 		<string>This action uses uuidgen to generate a uuid and copies it to the clipboard.</string>
 		<key>LBTwitter</key>
@@ -25,10 +21,6 @@
 		<key>LBWebsiteURL</key>
 		<string>https://bryanheinz.com</string>
 	</dict>
-	<key>LBRequirements</key>
-	<string>/usr/bin/uuidgen</string>
-	<key>LBResult</key>
-	<string>UUID string.</string>
 	<key>LBScripts</key>
 	<dict>
 		<key>LBDefaultScript</key>

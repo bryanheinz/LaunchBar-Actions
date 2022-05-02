@@ -23,7 +23,7 @@
 		<key>LBResult</key>
 		<string>MAC Address</string>
 		<key>LBSummary</key>
-		<string>This action takes a MAC address and either strips the colons, adds colons, or converts dashes to colons. It then adds the result to the clipboard and displays it in LaunchBar.</string>
+		<string>This action takes a MAC address and either strips the colons, adds colons, or converts dashes to colons, and then copies the result to the clipboard.</string>
 		<key>LBTwitter</key>
 		<string>@cookie_lust</string>
 		<key>LBWebsiteURL</key>

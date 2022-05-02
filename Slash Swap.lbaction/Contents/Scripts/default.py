@@ -1,22 +1,23 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+
 #
-# LaunchBar Action Script
+# LaunchBar Action Script - Slash Swap
 #
+# This script converts / to \ or \ to / (\m/)
+#
+
+import subprocess
 from sys import argv
-from AppKit import NSPasteboard, NSArray
 
-def pasteboard(content):
-    pb = NSPasteboard.generalPasteboard()
-    pb.clearContents()
-    content_array = NSArray.arrayWithObject_(content)
-    pb.writeObjects_(content_array)
+def pbcopy(txt):
+    task = subprocess.Popen(['pbcopy'], stdin=subprocess.PIPE, close_fds=True)
+    task.communicate(input=txt.encode('utf-8'))
 
-script, path = argv
+path = argv[1]
 
 if '/' in path:
     path = path.replace('/', '\\')
 elif '\\' in path:
     path = path.replace('\\', '/')
 
-pasteboard(path)
-print(path)
+pbcopy(path)

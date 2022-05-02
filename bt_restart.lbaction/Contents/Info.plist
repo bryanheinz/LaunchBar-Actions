@@ -15,7 +15,7 @@
 		<key>LBEmail</key>
 		<string></string>
 		<key>LBRequirements</key>
-		<string>blueutil https://github.com/toy/blueutil and bt_restart https://github.com/bryanheinz/bin/blob/master/bt_restart</string>
+		<string>blueutil https://github.com/toy/blueutil and bt_restart https://github.com/bryanheinz/bin/blob/main/bt_restart</string>
 		<key>LBResult</key>
 		<string>Restarts Bluetooth</string>
 		<key>LBSummary</key>
@@ -26,7 +26,7 @@
 		<string>https://bryanheinz.com</string>
 	</dict>
 	<key>LBRequirements</key>
-	<string>blueutil https://github.com/toy/blueutil and bt_restart https://github.com/bryanheinz/bin/blob/master/bt_restart</string>
+	<string>blueutil https://github.com/toy/blueutil and bt_restart https://github.com/bryanheinz/bin/blob/main/bt_restart</string>
 	<key>LBResult</key>
 	<string>Restarts Bluetooth</string>
 	<key>LBScripts</key>

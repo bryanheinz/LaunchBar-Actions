@@ -1,6 +1,9 @@
 #!/bin/sh
+
 #
-# LaunchBar Action Script
+# LaunchBar Action Script - which
+#
+# This script copies the input command's full path to the clipboard.
 #
 
 cmd=$(which $1)

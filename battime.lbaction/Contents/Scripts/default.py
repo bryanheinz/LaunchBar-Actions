@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # LaunchBar Action Script
 #
@@ -7,10 +7,11 @@ import subprocess
 
 
 pmset_cmd = ['/usr/bin/pmset', '-g', 'batt']
-task = subprocess.Popen(pmset_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+task = subprocess.Popen(
+    pmset_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 out, err = task.communicate()
 
-bat_info = out.strip().split(';')
+bat_info = out.decode().strip().split(';')
 bat_status = bat_info[1]
 bat_time = bat_info[-1].split(' ')[1]
 

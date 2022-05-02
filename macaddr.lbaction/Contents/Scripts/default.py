@@ -1,31 +1,34 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
+
 #
-# LaunchBar Action Script
+# LaunchBar Action Script - macaddr
 #
+# This script adds or removes colons, or converts dashes to colons on the input
+# string. This is useful for converting MAC addresses to different formats.
+#
+
+import subprocess
 from sys import argv
-from AppKit import NSPasteboard, NSArray
 
 
-def pasteboard(content):
-    pb = NSPasteboard.generalPasteboard()
-    pb.clearContents()
-    content_array = NSArray.arrayWithObject_(content)
-    pb.writeObjects_(content_array)
+def pbcopy(macaddy):
+    task = subprocess.Popen(['pbcopy'], stdin=subprocess.PIPE, close_fds=True)
+    task.communicate(input=macaddy.encode('utf-8'))
 
 def add_colon(mac):
     lines = []
-    for _ in xrange(0, len(mac), 2): # xrange(<start>, <end>, step)
+    for _ in range(0, len(mac), 2): # xrange(<start>, <end>, step)
         lines.append(mac[_:_+2])
-    return(':'.join(lines))
+    return ':'.join(lines)
 
 def rm_colon(mac):
-    return(mac.replace(':', ''))
+    return mac.replace(':', '')
 
 def convert_dash(mac):
-    return(mac.replace('-', ':'))
+    return mac.replace('-', ':')
 
 
-script, mac = argv
+mac = argv[1]
 
 if ":" in mac:
     macaddy = rm_colon(mac)
@@ -34,5 +37,4 @@ elif '-' in mac:
 elif ":" not in mac:
     macaddy = add_colon(mac)
 
-pasteboard(macaddy)
-print(macaddy)
+pbcopy(macaddy)

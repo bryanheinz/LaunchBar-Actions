@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+
+#
+# LaunchBar Action Script - Songwhip
+#
+# This script takes a music streaming service's music URL and converts it into
+# a Songwhip URL for sharing with friends.
+#
+
 import requests
 import subprocess
 from sys import argv
