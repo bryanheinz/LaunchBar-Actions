@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>man</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>3.0</string>
 	<key>LBArgument</key>
 	<string>Terminal command, string.</string>
 	<key>LBDescription</key>
@@ -41,6 +41,8 @@
 			<true/>
 			<key>LBResultType</key>
 			<string>string</string>
+			<key>LBRunInBackground</key>
+			<true/>
 			<key>LBScriptName</key>
 			<string>default.sh</string>
 		</dict>
